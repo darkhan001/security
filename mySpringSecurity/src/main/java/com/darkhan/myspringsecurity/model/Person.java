@@ -21,7 +21,7 @@ public class Person {
     private String username;
 
     @Column(name = "year_of_birth")
-    private int year_of_birth;
+    private int yearOfBirth;
 
     @Column(name = "password")
     private String password;
@@ -31,7 +31,7 @@ public class Person {
 
     public Person(String username, int year_of_birth, String password, String role) {
         this.username = username;
-        this.year_of_birth = year_of_birth;
+        this.yearOfBirth = year_of_birth;
         this.password = password;
         this.role = role;
     }
