@@ -1,4 +1,4 @@
-package com.darkhan.myspringsecurity.config;
+package com.darkhan.myspringsecurity.controllers;
 
 import com.darkhan.myspringsecurity.model.Person;
 import com.darkhan.myspringsecurity.services.RegistrationService;
